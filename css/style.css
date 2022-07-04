@@ -4,8 +4,16 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 .fancy-heading {
@@ -17,6 +25,10 @@ h1 {
     margin-bottom: 50px;
 }
 
+.section-title {
+    margin-left: 5%;
+}
+
 .half-width {
     width: 50%;
     padding:0 5%;
@@ -24,6 +36,21 @@ h1 {
 
 .half-width img {
     width: 100%;
+}
+
+.experience {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px #808080;
+}
+
+#learning {
+    border-left: 10px solid #ff0000;
+}
+
+#developer {
+    border-left: 10px solid #5861DD;
 }
 
 .button {
@@ -59,4 +86,9 @@ h1 {
     background-image: url(/images/third-section-bg.png);
     background-position: center left;
     background-repeat: no-repeat;
+}
+
+footer {
+    text-align: center;
+    padding-top: 50px;
 }
