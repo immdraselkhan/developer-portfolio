@@ -20,7 +20,7 @@ h3 {
     color: #ffa500;
 }
 
-.container {
+.flex-container {
     display: flex;
     margin-bottom: 50px;
 }
