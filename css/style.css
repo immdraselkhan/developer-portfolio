@@ -12,10 +12,9 @@ h1 {
     color: #ffa500;
 }
 
-section {
+.container {
     display: flex;
     margin-bottom: 50px;
-    padding-top: 100px;
 }
 
 .half-width {
@@ -43,12 +42,21 @@ section {
 }
 
 .first-section {
+    padding: 100px 0 50px;
     background-image: url(/images/first-section-bg.png);
     background-repeat: no-repeat;
 }
 
 .second-section {
+    padding-top: 50px;
     background-image: url(/images/second-section-bg.png);
     background-position: right;
+    background-repeat: no-repeat;
+}
+
+.third-section {
+    padding-top: 50px;
+    background-image: url(/images/third-section-bg.png);
+    background-position: center left;
     background-repeat: no-repeat;
 }
