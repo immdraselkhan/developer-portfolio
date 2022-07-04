@@ -14,11 +14,13 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 50px;
+    padding-top: 100px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding:0 5%;
 }
 
 .half-width img {
@@ -35,7 +37,18 @@ section {
     border-radius: 5px;
 }
 
+.btn {
+    margin-top: 50px;
+    display: block;
+}
+
 .first-section {
     background-image: url(/images/first-section-bg.png);
+    background-repeat: no-repeat;
+}
+
+.second-section {
+    background-image: url(/images/second-section-bg.png);
+    background-position: right;
     background-repeat: no-repeat;
 }
